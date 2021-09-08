@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  font-size: 100px;
+}
+.cards {
+  width: 300px;
+  padding-bottom: 30px;
+  border: 1px solid #333333;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+img {
+  width: 300px;
+  height: 205px;
+  margin-bottom: 30px;
+}
+.para {
+  font-family: Roboto;
+  margin-left: 25px;
+  width: 180px;
+}
+.para h6 {
+  font-size: 20px;
+  margin: 0px;
+}
+.para p {
+  font-size: 15px;
+}
+.footer {
+  height: 40px;
+  width: 250px;
+  margin-left: 25px;
+}
+.footer-para {
+  margin: 0;
+  width: 120px;
+}
+.footer-para p {
+  font-size: 35px;
+  margin: 0;
+  width: 80px;
+  float: left;
+}
+.fontIcon {
+  width: 50px;
+  height: 40px;
+  background-color: #4ed17b;
+  text-align: center;
+  font-size: 25px;
+  float: right;
+}
+.fa-shopping-cart {
+  color: #ffffff;
+  margin-top: 6px;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+}
